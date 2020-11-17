@@ -20,7 +20,7 @@ function setup() {
 
 	//Create the Bodies Here.
 	ground1=new ground(width/2,490,width,20);
-	paperball=new paper(30,165,30,30);
+	paperball=new paper(30,165,30);
 	//dustside1=new dustbin(675,455,10,50);
 	dustside2=new dustbin(1155,475);
 	//dustside3=new dustbin(775,455,10,50);
