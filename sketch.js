@@ -45,26 +45,20 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-
- // keyPressed();
-
   paperball.display();
   //dustside1.display();
   dustside2.display();
   //dustside3.display();
   ground1.display();
   drawSprites();
-
-  
-	
-	if(keyCode===UP_ARROW){
-		Matter.Body.applyForce(paperball.body,paperball.body.position,{x:25,y:-40})
-	}
-	
-	
-	
 }
 
+function keyPressed(){
+if(keyCode===UP_ARROW){
+		Matter.Body.applyForce(paperball.body,paperball.body.position,{x:25,y:-40})
+	}
 
+}
+		
 
 
